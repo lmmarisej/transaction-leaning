@@ -1,0 +1,4 @@
+# 这里没有设置数据库连接，因为使用的h2 内存数据库
+spring:
+  jpa:
+    show-sql: true
