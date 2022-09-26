@@ -1,0 +1,11 @@
+server:
+  port: 8081
+  context-path: /user
+spring:
+  application:
+    name: user
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://cxk:1234@localhost:8761/eureka/

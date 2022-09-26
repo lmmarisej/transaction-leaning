@@ -1,0 +1,11 @@
+server:
+  port: 8082
+  context-path: /order
+spring:
+  application:
+    name: order
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://cxk:1234@localhost:8761/eureka/

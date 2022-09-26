@@ -1,0 +1,17 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: registry
+security:
+  basic:
+    enabled: true
+  user:
+    name: cxk
+    password: 1234
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://cxk:1234@localhost:${server.port}/eureka/
